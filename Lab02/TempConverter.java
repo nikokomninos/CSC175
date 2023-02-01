@@ -18,6 +18,8 @@ public class TempConverter
       Scanner scan = new Scanner(System.in);
       double fahrenheitTemp;
       int celsiusTemp;  // value to convert
+      double CONVERSION_FACTOR = (9.0/5.0);
+      int BASE = 32;
 
       //Recieve input from user
       System.out.println("Please enter a temperature in degrees Celsius: ");
@@ -25,7 +27,7 @@ public class TempConverter
       scan.close();
 
       // Compute temperature in fahrenheit.
-      fahrenheitTemp = (celsiusTemp*(9.0/5.0)) + 32;
+      fahrenheitTemp = (celsiusTemp * CONVERSION_FACTOR) + BASE;
 
       // Print equivalent temperatures in celsius and fahrenheit.
       System.out.println ("\nCelsius Temperature: " + celsiusTemp);
