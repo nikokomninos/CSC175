@@ -9,7 +9,7 @@ import java.util.*;
 
 public class Computation{
     public static void main(String[] args) {
-        //Initialize scanner object + variables 
+        //Initialize scanner object, variables 
         Scanner scan = new Scanner(System.in);
         int sum = 0;
 
