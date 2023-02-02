@@ -23,6 +23,7 @@ public class ForceConverter{
 
     /*convert()- converts pound-force to newtons through multiplying by the newton constant
     Parameters - poundForce, which represents the value that the user would like to convert to Newtons 
+    Precondition: poundForce is a non-negative floating point number
     */
     public static void convert(double poundForce){
         final double NEWTON = 4.44822162; //constant

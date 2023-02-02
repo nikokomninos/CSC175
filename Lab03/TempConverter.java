@@ -27,7 +27,8 @@ public class TempConverter
    } // end main
 
     /*convert()- converts celsius to farenhiet through multiplying by the conversion factor and adding the base difference 
-    Parameters - celsiusTemp, which represents the value that the user would like to convert to farenheit 
+    Parameters - celsiusTemp, which represents the value that the user would like to convert to farenheit
+    Precondition - celsiusTemp is a non-negative integer 
     */
    public static void convert(int celsiusTemp){
       final double CONVERSION_FACTOR = (9.0/5.0); //conversion factor between celsius and farenheit
