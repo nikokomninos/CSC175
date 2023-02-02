@@ -35,6 +35,7 @@ public class LbsToKgsWithMethods
       
       System.out.print("Enter a weight in pounds: ");
       double lbs = scan.nextDouble();
+      scan.close();
 
       return lbs;
    } // end readLbs
