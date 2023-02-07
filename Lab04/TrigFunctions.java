@@ -1,6 +1,6 @@
 /*
  * Name: Nikolaos Komninos
- * Date & Version: 2/5/23, Ver. 1
+ * Date & Version: 2/6/23, Ver. 1
  * Purpose: Compute the values of sine and cosine squared (in radians) based off a user-inputted angle (in degrees)
  */
 
