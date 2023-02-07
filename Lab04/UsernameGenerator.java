@@ -30,7 +30,7 @@ public class UsernameGenerator
         String firstName = fullName.substring(0, positionOfSpace);
         String lastName = fullName.substring(positionOfSpace + 1, fullName.length());
         //Generate random integer between 10 and 99 inclusive
-        int random = generator.nextInt(98) + 10;
+        int random = generator.nextInt(90) + 10;
 
         //Generate username string
         //Pre-Condition: Last name is at least 5 letters
