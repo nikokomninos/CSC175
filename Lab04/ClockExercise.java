@@ -6,7 +6,7 @@
  * @version (a version number or a date)
  */
 
-import java.util.*;
+import java.util.Scanner;
 
 public class ClockExercise
 {
