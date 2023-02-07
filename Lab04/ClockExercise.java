@@ -2,8 +2,8 @@
  * ClockExercise reads from the user the current time and a number of minutes
  * to advance the clock, then prints the new time.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Nikolaos Komninos
+ * @2/6/23, Ver. 1 (a version number or a date)
  */
 
 import java.util.*;

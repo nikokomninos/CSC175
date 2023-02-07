@@ -1,6 +1,6 @@
 /*
  * Name: Nikolaos Komninos
- * Date & Version: 2/5/23, Ver. 1
+ * Date & Version: 2/6/23, Ver. 1
  * Purpose: Simulate a dice roll
  */
 
