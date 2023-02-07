@@ -1,8 +1,8 @@
 /** 
  * Extract first and last names from a full name, read from the user as "First Last".
  * 
- * @Nikolaos Komninos (your name) 
- * @Version 1, 2/6/23(a version number or a date)
+ * @Nikolaos Komninos
+ * @Version 1, 2/6/23
  */
 
 import java.util.*;

@@ -1,8 +1,8 @@
 /** 
  * Extract first and last names from a full name, read from the user as "First Last", then generate a username using those names.
  * 
- * @Nikolaos Komninos (your name) 
- * @Version 1, 2/6/23(a version number or a date)
+ * @Nikolaos Komninos
+ * @Version 1, 2/6/23
  */
 
 import java.util.*;
