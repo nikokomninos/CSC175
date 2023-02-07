@@ -33,6 +33,7 @@ public class UsernameGenerator
         int random = generator.nextInt(98) + 10;
 
         //Generate username string
+        //Pre-Condition: Last name is at least 5 letters
         String username = "" + firstName.substring(0,1) + lastName.substring(0,5) + random;
         
         // Print the first name and last name, along with username
