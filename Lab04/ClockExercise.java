@@ -6,7 +6,7 @@
  * @version (a version number or a date)
  */
 
-import java.util.Scanner;
+import java.util.*;
 
 public class ClockExercise
 {
@@ -30,9 +30,10 @@ public class ClockExercise
 
       // Read the current time from the user, and a number of minutes to advance the clock.
       System.out.print ("Enter a time (24 hour format) as \"H:M\" between \"0:0\" and \"23:59\" : ");
-      String currentTime = scan.next ();
+      String currentTime = scan.next();
       System.out.print ("Enter a number of minutes to advance the clock: ");
-      int minutesToAdd = scan.nextInt ();
+      int minutesToAdd = scan.nextInt();
+      scan.close();
       
       // Extract the current hour and minute from the String entered by the user.
       int positionOfColon = currentTime.indexOf (':');
@@ -55,8 +56,8 @@ public class ClockExercise
       // Update newMinute so that it is between 0 (inclusive) and 59 (inclusive) and 
       // update newHour so that it is between 0 (inclusive) and 23 (inclusive).
       // *** Exercise: Add code to update newMinute and newHour appropriately.
-      newMinute = newMinute; 
-      newHour = newHour;
+      newMinute = newMinute % MIN_PER_HOUR;  
+      newHour = newHour % HOURS_PER_DAY;
       
       // Print the initial and new times.
       System.out.println("The initial time was " + currentTime);
