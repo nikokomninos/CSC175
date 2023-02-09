@@ -43,7 +43,6 @@ public class GradeComputation{
         j = scan.nextInt(); k = scan.nextInt(); avg = computeAverage(grades, j);
         close = howManyCloseToAvg(grades, j , avg, k);
         System.out.println("\nThere are " + close + " grades in the range of plus or minus " + k + " of the average, " + avg);
-        scan.close();
     }
 
     /*
@@ -64,7 +63,6 @@ public class GradeComputation{
             grades[i] = scan.nextInt();
         }
 
-        scan.close();
         return grades;
 
     }
