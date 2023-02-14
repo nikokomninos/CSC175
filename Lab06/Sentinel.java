@@ -34,12 +34,14 @@ public class Sentinel{
                 sum += x;
                 count += 1;
             }
+            //If grade is invalid
             else{
                 System.out.println("Invalid input. The grade cannot be negative.");
             }
         }
         scan.close();
 
+        //If no grades were entered
         if(count == 0){
             System.out.println("No grades entered.");
         }
@@ -54,6 +56,7 @@ public class Sentinel{
      * @return boolean value
      */
     public static boolean checkGrade(int grade){
+        //If the grade is a positive integer between 0 and 100
         if(grade >= 0 && grade <= 100){
             return true;
         }
