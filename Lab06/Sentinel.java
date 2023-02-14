@@ -34,6 +34,9 @@ public class Sentinel{
                 sum += x;
                 count += 1;
             }
+            else{
+                System.out.println("Invalid input. The grade cannot be negative.");
+            }
         }
         scan.close();
 
