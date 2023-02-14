@@ -39,6 +39,7 @@ public class Sentinel{
                 System.out.println("Invalid input. The grade cannot be negative.");
             }
         }
+
         scan.close();
 
         //If no grades were entered
