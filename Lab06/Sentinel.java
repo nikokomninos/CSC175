@@ -15,7 +15,7 @@ public class Sentinel{
      * @param args Unused
      */
     public static void main(String[] args) {
-        //Decleare variable, initialize scanner object to recieve user input
+        //Decleare and initialize variables, initialize scanner object to recieve user input
         Scanner scan = new Scanner(System.in);
         int sum = 0, count = 0;
         final int SENTINEL = -1;
