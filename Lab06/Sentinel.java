@@ -35,6 +35,7 @@ public class Sentinel{
                 count += 1;
             }
         }
+        scan.close();
 
         if(count == 0){
             System.out.println("No grades entered.");
