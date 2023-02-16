@@ -31,6 +31,7 @@ public class SillySentence{
      * A method that generates a pseudo-random number between 0 and the length of the array exclusive, and return the String at the random index
      * @param words, an array of Strings
      * @return words[x], a String at the randomly generated index of the array 
+     * Precondition: String[] words is not empty and has a length greater than 0
      */
     public static String chooseWord(String[] words){
         int x = (int)(Math.random() * words.length);
