@@ -1,5 +1,5 @@
 /**
- * A program that crafts a sentence based off of a random subject, verb and predicate, each chosen pseudorandomly from an array.
+ * A program that crafts a sentence comprised of a random subject, verb and predicate, each chosen pseudorandomly from their respective arrays.
  * 
  * @author Nikolaos Komninos
  * @version 1.0
@@ -34,6 +34,7 @@ public class SillySentence{
      * Precondition: String[] words is not empty and has a length greater than 0
      */
     public static String chooseWord(String[] words){
+        //Generates a random number between 0 and the length of the array, exclusive
         int x = (int)(Math.random() * words.length);
         return words[x];
     }
