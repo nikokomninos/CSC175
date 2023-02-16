@@ -17,7 +17,7 @@ public class SillySentence{
         String subject, verb, predicate;
         String[] subjects = {"I", "You", "He", "She", "It", "We", "They"};
         String[] verbs = {"destroy", "arrive", "unite", "devote", "love", "hate", "reckon", "exert", "give", "swear", "ate"};
-        String[] predicates = {"life", "the president", "energy", "the professor", "life", "drinking water", "help"};
+        String[] predicates = {"life", "the president", "energy", "the professor", "death", "drinking water", "help"};
 
         //Retrieve random words
         subject = chooseWord(subjects);
