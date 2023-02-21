@@ -20,7 +20,7 @@ public class Playlist {
         //Store song in the corresponding array index
         playlist[0] = s1;
 
-        Song s2 = new Song("One", "Metallica", "...And Jusstice For All", 8);
+        Song s2 = new Song("One", "Metallica", "...And Justice For All", 8);
         playlist[1] = s2;
 
         Song s3 = new Song("The Trooper", "Iron Maiden", "Piece of Mind", 9);
@@ -39,11 +39,11 @@ public class Playlist {
         }
 
         //Print the rating of a specific song
-        System.out.println("The rating of " + s2.getTitle() + " by " + s2.getArtist() + " is " + s2.getRating());
+        System.out.println("The rating of \"" + s2.getTitle() + "\" by " + s2.getArtist() + " is " + s2.getRating());
         //Change the rating
         s2.setRating(6);
         //Print new rating
-        System.out.println("The new rating of " + s2.getTitle() + " by " + s2.getArtist() + " is " + s2.getRating());
+        System.out.println("The new rating of \"" + s2.getTitle() + "\" by " + s2.getArtist() + " is " + s2.getRating());
 
     }
 }
