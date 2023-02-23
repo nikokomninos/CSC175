@@ -78,6 +78,6 @@ public class Dog {
      * Returns a string containing the main information about a dog
      */
     public String toString(){
-        return("This is " + name + "! He is " + age + " years old in dog years and " + getHumanAge() + " in human years.");
+        return("This is " + name + "! They are " + age + " years old in dog years and " + getHumanAge() + " in human years.");
     }
 }
