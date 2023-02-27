@@ -39,5 +39,8 @@ public class Kennel {
         //Compares two dogs to check if they have equal attributes
         System.out.println(d1.isEqual(d2));
         System.out.println(d3.isEqual(d4));
+
+        System.out.println(d1.getHumanAge());
+        System.out.println("That should have printed 21");
     }
 }
